@@ -1,17 +1,17 @@
 {
- "surum": "0.7.1",
+ "surum": "0.8.0",
  "tarih": "2026-11-22",
- "notlar": "- Otomatik güncelleme: Vakar açıldığında yeni sürüm olup olmadığına bakar, varsa size sorup kendisi kurar. Yardım → Güncellemeleri Denetle ile elle de denetlenebilir.\n- 0.7.0'ın bütün özellikleri: Dersin Özelliği (sözel, sayısal, seçmeli, uygulamalı), Derslikler ve derslik programları, çıktılarda imzalar, zil saatleri hesabı, nöbetçi listesinden çıkarma, bayram tarihleri ve MEB duyurusundan tatil yapıştırma.",
+ "notlar": "- Resmî yazı biçiminde öğretmen programı: T.C. başlığı, Sayı / Tarih / Konu, \"Sayın …\" ve tebliğ metni, ders dökümü, nöbet günü ve rehberlik sınıfı, \"Tebliğ Eden / Aslını Aldım\". İsteğe bağlı çift nüsha (öğretmen ve okul nüshası aynı sayfada).\n- \"Neden yerleşmedi?\": Dağıtım tam olmazsa her öğretmenin ders yükünü ve açık saatini karşılaştırır, açılması gereken kapalı saatleri önerir; \"Bu Saatleri Aç\" ile tek tıkla uygulanır.\n- Yeni kıstaslar: nöbetçi öğretmene nöbet gününde en fazla şu kadar ders; rehberlik dersi bütün sınıflarda aynı saatte; tören saati (ilk gün ilk ders, son gün son ders dolu); aynı ders üst üste en fazla şu kadar saat (muaf dersler seçilebilir).\n- Okul Bilgileri artık Bilgiler menüsünde; üst makam (kaymakamlık/valilik) bilgisi eklendi.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "45816dbc271aa5c0f5e977a15077a216d8a5bfdef7d8ea1a341da3357ed08d9f",
-   "boyut": 84145296
+   "sha256": "e2c8a7f8d632559530e206b1a9e88f4e4ab5a698a23f6b89025e0b37c03d0833",
+   "boyut": 84173037
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "0e2854e30b80e477530ecc632d417d0eaf4bdc1a86e311056df0592e2f71970c",
-   "boyut": 77953306
+   "sha256": "6093d4797dfe324bae7a5e67e8c296bc13067c4394b8f7be7b54cf223ae117a1",
+   "boyut": 77920730
   }
  }
 }

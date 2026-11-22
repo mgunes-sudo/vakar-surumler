@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.7.1** (2026-11-22)
+Son sürüm: **0.8.0** (2026-11-22)
 
 ## İndir
 
@@ -21,12 +21,14 @@ Son sürüm: **0.7.1** (2026-11-22)
 Okullar için ücretsiz ders dağıtım ve nöbet programı.
 
 **Hangi dosyayı indirmeliyim?**
-- **Windows:** `Vakar-Kurulum-0.7.1.zip` dosyasını indirin, içindeki kurulum dosyasını çalıştırın. (Virüs programınız .exe indirmeyi engellemezse doğrudan `Vakar-Kurulum-0.7.1.exe` de kullanılabilir.) Windows "tanınmayan uygulama" uyarısı verirse **Ek bilgi → Yine de çalıştır**'a basın.
-- **Pardus / Linux:** `vakar_0.7.1_amd64.deb` dosyasını indirip çift tıklayın.
+- **Windows:** `Vakar-Kurulum.zip` dosyasını indirin, içindeki kurulum dosyasını çalıştırın. Windows "tanınmayan uygulama" uyarısı verirse **Ek bilgi → Yine de çalıştır**'a basın.
+- **Pardus / Linux:** `vakar_amd64.deb` dosyasını indirip çift tıklayın.
 
 **Bu sürümde yeni**
-- Otomatik güncelleme: Vakar açıldığında yeni sürüm olup olmadığına bakar, varsa size sorup kendisi kurar. Yardım → Güncellemeleri Denetle ile elle de denetlenebilir.
-- 0.7.0'ın bütün özellikleri: Dersin Özelliği (sözel, sayısal, seçmeli, uygulamalı), Derslikler ve derslik programları, çıktılarda imzalar, zil saatleri hesabı, nöbetçi listesinden çıkarma, bayram tarihleri ve MEB duyurusundan tatil yapıştırma.
+- Resmî yazı biçiminde öğretmen programı: T.C. başlığı, Sayı / Tarih / Konu, "Sayın …" ve tebliğ metni, ders dökümü, nöbet günü ve rehberlik sınıfı, "Tebliğ Eden / Aslını Aldım". İsteğe bağlı çift nüsha (öğretmen ve okul nüshası aynı sayfada).
+- "Neden yerleşmedi?": Dağıtım tam olmazsa her öğretmenin ders yükünü ve açık saatini karşılaştırır, açılması gereken kapalı saatleri önerir; "Bu Saatleri Aç" ile tek tıkla uygulanır.
+- Yeni kıstaslar: nöbetçi öğretmene nöbet gününde en fazla şu kadar ders; rehberlik dersi bütün sınıflarda aynı saatte; tören saati (ilk gün ilk ders, son gün son ders dolu); aynı ders üst üste en fazla şu kadar saat (muaf dersler seçilebilir).
+- Okul Bilgileri artık Bilgiler menüsünde; üst makam (kaymakamlık/valilik) bilgisi eklendi.
 
 Kayıtlı programlarınız ve yedekleriniz güncellemeden etkilenmez.
 Öneri ve istekleriniz için: mgunes454@gmail.com
