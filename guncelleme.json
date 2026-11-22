@@ -1,0 +1,17 @@
+{
+ "surum": "0.7.1",
+ "tarih": "2026-11-22",
+ "notlar": "- Otomatik güncelleme: Vakar açıldığında yeni sürüm olup olmadığına bakar, varsa size sorup kendisi kurar. Yardım → Güncellemeleri Denetle ile elle de denetlenebilir.\n- 0.7.0'ın bütün özellikleri: Dersin Özelliği (sözel, sayısal, seçmeli, uygulamalı), Derslikler ve derslik programları, çıktılarda imzalar, zil saatleri hesabı, nöbetçi listesinden çıkarma, bayram tarihleri ve MEB duyurusundan tatil yapıştırma.",
+ "dosyalar": {
+  "win": {
+   "ad": "indir/Vakar-Kurulum.exe",
+   "sha256": "45816dbc271aa5c0f5e977a15077a216d8a5bfdef7d8ea1a341da3357ed08d9f",
+   "boyut": 84145296
+  },
+  "linux": {
+   "ad": "indir/vakar_amd64.deb",
+   "sha256": "0e2854e30b80e477530ecc632d417d0eaf4bdc1a86e311056df0592e2f71970c",
+   "boyut": 77953306
+  }
+ }
+}

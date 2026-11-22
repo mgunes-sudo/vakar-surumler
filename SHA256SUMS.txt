@@ -1,0 +1,3 @@
+45816dbc271aa5c0f5e977a15077a216d8a5bfdef7d8ea1a341da3357ed08d9f  indir/Vakar-Kurulum.exe
+ea512c41a3caa2e8d8109ea964212de8b98ccc2bad9f8415d2f46cc8526931b5  indir/Vakar-Kurulum.zip
+0e2854e30b80e477530ecc632d417d0eaf4bdc1a86e311056df0592e2f71970c  indir/vakar_amd64.deb
