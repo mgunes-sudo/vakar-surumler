@@ -1,5 +1,5 @@
 {
- "surum": 1,
+ "surum": 2,
  "cizelgeler": [
   {
    "id": "İmam Hatip Ortaokulu",
@@ -810,8 +810,8 @@
    "name": "Anadolu Lisesi",
    "short": "AL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09",
-   "note": "Ortak dersler bu karardaki çizelgeden alınmıştır (9., 10. ve 11. sınıflar). Seçmeli dersleri ve 12. sınıfı kendiniz girin.",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
    "levels": {
     "9": [
      {
@@ -909,6 +909,46 @@
       "blocks": [
        1
       ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
      }
     ],
     "10": [
@@ -1007,6 +1047,38 @@
       "blocks": [
        1
       ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
      }
     ],
     "11": [
@@ -1068,6 +1140,3295 @@
       "blocks": [
        1
       ]
+     },
+     {
+      "short": "SMAT",
+      "name": "SEÇMELİ MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TMAT",
+      "name": "TEMEL MATEMATİK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SFİZ",
+      "name": "SEÇMELİ FİZİK",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SKİM",
+      "name": "SEÇMELİ KİMYA",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBİY",
+      "name": "SEÇMELİ BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SMAT",
+      "name": "SEÇMELİ MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TMAT",
+      "name": "TEMEL MATEMATİK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SFİZ",
+      "name": "SEÇMELİ FİZİK",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SKİM",
+      "name": "SEÇMELİ KİMYA",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBİY",
+      "name": "SEÇMELİ BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "Hazırlık Sınıflı Anadolu Lisesi",
+   "name": "Hazırlık Sınıflı Anadolu Lisesi",
+   "short": "HAL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "levels": {
+    "0": [
+     {
+      "short": "HTDE",
+      "name": "HAZIRLIK SINIFI TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       4,
+       4,
+       4,
+       4,
+       4
+      ]
+     },
+     {
+      "short": "İYDİL",
+      "name": "İKİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SMAT",
+      "name": "SEÇMELİ MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TMAT",
+      "name": "TEMEL MATEMATİK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SFİZ",
+      "name": "SEÇMELİ FİZİK",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SKİM",
+      "name": "SEÇMELİ KİMYA",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBİY",
+      "name": "SEÇMELİ BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SMAT",
+      "name": "SEÇMELİ MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TMAT",
+      "name": "TEMEL MATEMATİK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SFİZ",
+      "name": "SEÇMELİ FİZİK",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SKİM",
+      "name": "SEÇMELİ KİMYA",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBİY",
+      "name": "SEÇMELİ BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "Fen Lisesi",
+   "name": "Fen Lisesi",
+   "short": "FL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "levels": {
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BİLTE2",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM (SEÇMELİ)",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "Hazırlık Sınıflı Fen Lisesi",
+   "name": "Hazırlık Sınıflı Fen Lisesi",
+   "short": "HFL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "levels": {
+    "0": [
+     {
+      "short": "HTDE",
+      "name": "HAZIRLIK SINIFI TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "HMAT",
+      "name": "HAZIRLIK SINIFI MATEMATİK",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       4,
+       4,
+       4,
+       4,
+       4
+      ]
+     },
+     {
+      "short": "İYDİL",
+      "name": "İKİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BİLTE2",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM (SEÇMELİ)",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "Sosyal Bilimler Lisesi",
+   "name": "Sosyal Bilimler Lisesi",
+   "short": "SBL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "levels": {
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SNTR",
+      "name": "SANAT TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "Hazırlık Sınıflı Sosyal Bilimler Lisesi",
+   "name": "Hazırlık Sınıflı Sosyal Bilimler Lisesi",
+   "short": "HSBL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09.1",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "levels": {
+    "0": [
+     {
+      "short": "HTDE",
+      "name": "HAZIRLIK SINIFI TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "HMAT",
+      "name": "HAZIRLIK SINIFI MATEMATİK",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       4,
+       4,
+       4,
+       4,
+       4
+      ]
+     },
+     {
+      "short": "İYDİL",
+      "name": "İKİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TKMT",
+      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "blocks": [
+       1
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     }
+    ],
+    "12": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BGM",
+      "name": "BEDEN EĞİTİMİ VE SPOR/GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SNTR",
+      "name": "SANAT TARİHİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "EDUY",
+      "name": "EDEBİYAT UYGULAMALARI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
+     },
+     {
+      "short": "KKAD",
+      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
+      "blocks": [
+       2
+      ],
+      "secmeli": true
      }
     ]
    }
