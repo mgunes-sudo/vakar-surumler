@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.10.0** (2026-11-25)
+Son sürüm: **0.10.1** (2026-11-25)
 
 ## İndir
 
@@ -25,18 +25,19 @@ Okullar için ücretsiz ders dağıtım ve nöbet programı.
 - **Pardus / Linux:** `vakar_amd64.deb` dosyasını indirip çift tıklayın.
 
 **Bu sürümde yeni**
-- **Yeni görünüm:** Pencereler yerine solda adım adım ilerleyen bir menü; her adımın yanında ✓, ! ya da ✕ işareti. Açılışta Pano: okulun özeti, sıradaki adım, bugünün nöbetçileri ve gelmeyenler, hızlı işlemler.
-- **Sorunlar paneli:** Sağda her zaman açık duran panel; her hatanın yanında sorunu gidereceğiniz sayfaya giden düğme.
-- **Ders Atama Tablosu:** Bütün sınıflar ve dersler tek tabloda; hücreye öğretmenin kısa adını yazıp Enter ile ilerleyin, tutamacı aşağı sürükleyerek alttaki şubelere kopyalayın. Öğretmen listelerinde branşı uyanlar önce gelir.
-- **Ders Programı sayfası:** Programda arama, tek gün görünümü, karta tıklayınca ayrıntı ve çakışmasız taşınabileceği yerler; yalnızca bir öğretmenin ya da sınıfın derslerini yeniden dağıtma.
-- **Daha hızlı dağıtım:** Bilgisayarın birden çok çekirdeği varsa dağıtım her çekirdekte ayrı denenir, en iyisi alınır.
-- **Yeni öğretim yılına geçiş:** Sınıflar bir üst düzeye geçer, en üst düzey mezun olur, yeni şubeler açılır; dersler yeni düzeyin çizelgesinden kurulur, öğretmenler korunur.
-- **Okul Paketi:** Her öğretmen ve sınıf için ayrı PDF, toplu programlar, çarşaf listeler ve durum raporu tek tıkla bir klasöre kaydedilir.
-- **Toplu işlemler:** Bir öğretmenin uygunluğunu başka öğretmenlere uygulama; bir dersin blok düzenini ve kısıtlarını aynı düzeydeki şubelere uygulama.
-- **Haftalık ders çizelgeleri:** "Alan Çizelgesi Oluştur" ile meslek liselerindeki alanlar okulun seçtiği adlarla eklenir. Çizelge listesinde ve sınıf türünde yalnızca okulunuzun türleri görünür ("Bütün Çizelgeleri Göster" ile hepsi).
-- **Nöbet:** Nöbet çizelgesi ay takvimi olarak da görülebilir.
-- **Kolaylıklar:** Ctrl+K ile hızlı arama (sayfa, öğretmen, sınıf, ders); koyu tema; açık dosya 3 dakikada bir kendiliğinden kaydedilir; "Bugün" düğmesi ders doldurmayı açar; açılış görseli tıklayınca geçer.
-- **Güncelleme:** Program her açılışta güncellemeyi denetler, internet yoksa birkaç kez yeniden dener; sonuç alt bilgi şeridinde görünür ("Vakar güncel" ya da "Yeni sürüm var · Güncelle").
+- **Yenilenen sayfalar:** Sayfa başlıkları sadeleşti; her sayfanın ne işe yaradığı başlığın yanındaki ⓘ düğmesiyle açılır. Öğretmenler sayfası liste ve ayrıntı kartı (Uygunluk, Girdiği Dersler, Programı sekmeleri) olarak yeniden düzenlendi; Okul, Dersler ve Sınıflar sayfaları da yenilendi.
+- **İnce üst bölüm:** Sık kullanılan düğmeler menü çubuğunda küçük simgeler olarak durur. Büyük araç çubuğu Görünüm menüsünden açılabilir.
+- **Sorunlar paneli:** Sorun yokken ince bir şeride dönüşür; istenirse elle de daraltılır.
+- **Seçmeli dersler:** Okul türüne uygun seçmeli ders listesi (Talim ve Terbiye Kurulunun 2026/115 ve 2026/117 sayılı kararları, liseler için seçmeli ders çizelgeleri) programa eklendi. Sınıflar sayfasındaki "Seçmeli Ders Ekle" listesinden seçilir; bir sınıfın seçmeli ders saati eksik ya da fazlaysa uyarı verilir.
+- **İmam hatip ve ortaokul bir arada:** 8 ders saatlik günlerde ortaokul şubelerinin 8. saati kendiliğinden kapanır (ortaokul 35, imam hatip 36 saat). Hiçbir gün 8 saatlik değilse uyarı verilir. Çıktılarda ortaokul şubelerinin 8. saat sütunu gösterilmez.
+- **Rehberlik:** Rehberlik dersi adından tanınır; Dersler sayfasındaki "Rehberlik Dersi" sütunu kaldırıldı. İmam hatip 8. sınıftaki ders "Rehberlik ve Yönlendirme" olarak güncellendi.
+- **İlkokul çizelgesi:** 2026/115 sayılı karara göre güncellendi (Serbest Etkinlikler).
+- **Nöbet düzeni:** Nöbet günü ve nöbet yeri ayrı ayrı seçilir: "Sabit kalsın", "Her hafta değişsin" ya da "Program belirlesin". Eski "Sırayla değişsin" düzenini kullanan okullarda iki seçenek de "Program belirlesin" olur.
+- **Tatiller ve İzinler:** Raporlu ve izinli öğretmenler bölümü tatil tablosunun üstüne binmiyor; izinler dikey formdan eklenir ve düzenlenebilir.
+- **Güncelleme:** "Güncellemeleri Denetle" menüsü kaldırıldı; program açık kaldığı sürece günde bir kez kendiliğinden denetler. Alt şeritteki "Vakar güncel" yazısına tıklayarak hemen denetleyebilirsiniz.
+- **Pano:** "Yeni Yıla Geç" hızlı işlemlerden kaldırıldı (Ders Programı menüsünde duruyor).
+- **Güvenlik:** Program yalnızca kendi program dosyalarının üzerine yazar; pencere başka sitelere gidemez, kamera, mikrofon ve konum izni istemez; internete yalnızca güncelleme ve çizelge denetimi için GitHub'a bağlanır. Okul verileriniz bilgisayarınızdan dışarı gönderilmez.
+- **Dil:** Arayüz metinleri yazım ve noktalama bakımından gözden geçirildi; "Kuranı Kerim" yazımı "Kur'an-ı Kerim" olarak düzeltildi.
 
 Kayıtlı programlarınız ve yedekleriniz güncellemeden etkilenmez.
 

@@ -1,13 +1,13 @@
 {
- "surum": 2,
+ "surum": 3,
  "cizelgeler": [
   {
    "id": "İmam Hatip Ortaokulu",
    "name": "İmam Hatip Ortaokulu",
    "short": "İHO",
    "source": "TTKB 23.09.2026 tarihli ve 117 sayılı karar",
-   "version": "2026-09-23",
-   "note": "Zorunlu ve meslek dersleri bu karardaki çizelgeden alınmıştır. Seçmeli dersleri (5., 6. ve 7. sınıfta 1 saat; 8. sınıfta 2 saat) kendiniz ekleyin.",
+   "version": "2026-09-23.1",
+   "note": "Zorunlu ve meslek dersleri bu karardaki çizelgeden alınmıştır. Seçmeli dersler (5., 6. ve 7. sınıfta 1 saat; 8. sınıfta 2 saat) Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir. Haftalık toplam 36 saattir.",
    "levels": {
     "5": [
      {
@@ -79,7 +79,7 @@
      },
      {
       "short": "KURAN",
-      "name": "KURANI KERİM",
+      "name": "KUR’AN-I KERİM",
       "blocks": [
        2
       ]
@@ -202,7 +202,7 @@
      },
      {
       "short": "KURAN",
-      "name": "KURANI KERİM",
+      "name": "KUR’AN-I KERİM",
       "blocks": [
        2
       ]
@@ -316,7 +316,7 @@
      },
      {
       "short": "KURAN",
-      "name": "KURANI KERİM",
+      "name": "KUR’AN-I KERİM",
       "blocks": [
        2
       ]
@@ -393,8 +393,8 @@
       ]
      },
      {
-      "short": "REVKP",
-      "name": "REHBERLİK VE KARİYER PLANLAMA",
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
       "blocks": [
        1
       ]
@@ -429,7 +429,7 @@
      },
      {
       "short": "KURAN",
-      "name": "KURANI KERİM",
+      "name": "KUR’AN-I KERİM",
       "blocks": [
        2
       ]
@@ -450,6 +450,515 @@
       ]
      }
     ]
+   },
+   "secmeli": {
+    "toplam": {
+     "5": 1,
+     "6": 1,
+     "7": 1,
+     "8": 2
+    },
+    "dersler": [
+     {
+      "short": "MBU",
+      "name": "MATEMATİK VE BİLİM UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "OKUBE",
+      "name": "OKUMA BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "YYB",
+      "name": "YAZARLIK VE YAZMA BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "YDL",
+      "name": "YAŞAYAN DİLLER VE LEHÇELER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "YDBK",
+      "name": "YABANCI DİL (BAKANLAR KURULU KARARI İLE KABUL EDİLEN DİLLER)",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ÇEİD",
+      "name": "ÇEVRE EĞİTİMİ VE İKLİM DEĞİŞİKLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "ŞEHRİ",
+      "name": "“ŞEHRİMİZ…”",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "HUKAD",
+      "name": "HUKUK VE ADALET",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "ROBKO",
+      "name": "ROBOTİK KODLAMA",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "YZU",
+      "name": "YAPAY ZEKÂ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "7": [
+        1
+       ],
+       "8": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "OTSS",
+      "name": "OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "MEDOK",
+      "name": "MEDYA OKURYAZARLIĞI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "AFEBİ",
+      "name": "AFET BİLİNCİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TYB",
+      "name": "TEMEL YAŞAM BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KMYV",
+      "name": "KÜLTÜR VE MEDENİYETİMİZE YÖN VERENLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "AVE",
+      "name": "AHLAK VE VATANDAŞLIK EĞİTİMİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "GÖRGÜ",
+      "name": "GÖRGÜ KURALLARI VE NEZAKET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "SPOFE",
+      "name": "SPOR VE FİZİKÎ ETKİNLİKLER",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "OOE",
+      "name": "OYUN VE OYUN ETKİNLİKLERİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "DİJSA",
+      "name": "DİJİTAL SANATLAR",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "MASDE",
+      "name": "MASAL VE DESTANLARIMIZ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "GELSA",
+      "name": "GELENEKSEL SANATLAR",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "HALOY",
+      "name": "HALK OYUNLARI",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1
+       ],
+       "6": [
+        1
+       ],
+       "7": [
+        1
+       ],
+       "8": [
+        1
+       ]
+      }
+     }
+    ]
    }
   },
   {
@@ -457,8 +966,8 @@
    "name": "Ortaokul",
    "short": "ORT",
    "source": "TTKB 23.09.2026 tarihli ve 115 sayılı karar",
-   "version": "2026-09-23",
-   "note": "Zorunlu dersler bu karardaki çizelgeden alınmıştır. Seçmeli dersleri (5., 6. ve 7. sınıfta 5 saat; 8. sınıfta 6 saat) kendiniz ekleyin.",
+   "version": "2026-09-23.1",
+   "note": "Zorunlu dersler bu karardaki çizelgeden alınmıştır. Seçmeli dersler (5., 6. ve 7. sınıfta 5 saat; 8. sınıfta 6 saat) Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "5": [
      {
@@ -803,6 +1312,585 @@
       ]
      }
     ]
+   },
+   "secmeli": {
+    "toplam": {
+     "5": 5,
+     "6": 5,
+     "7": 5,
+     "8": 6
+    },
+    "dersler": [
+     {
+      "short": "MBU",
+      "name": "MATEMATİK VE BİLİM UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "OKUBE",
+      "name": "OKUMA BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "YYB",
+      "name": "YAZARLIK VE YAZMA BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "YDL",
+      "name": "YAŞAYAN DİLLER VE LEHÇELER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "İNG",
+      "name": "YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "ÇEİD",
+      "name": "ÇEVRE EĞİTİMİ VE İKLİM DEĞİŞİKLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "ŞEHRİ",
+      "name": "“ŞEHRİMİZ…”",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "HUKAD",
+      "name": "HUKUK VE ADALET",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "ROBKO",
+      "name": "ROBOTİK KODLAMA",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "YZU",
+      "name": "YAPAY ZEKÂ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTSS",
+      "name": "OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "MEDOK",
+      "name": "MEDYA OKURYAZARLIĞI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "AFEBİ",
+      "name": "AFET BİLİNCİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TYB",
+      "name": "TEMEL YAŞAM BECERİLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "KURAN",
+      "name": "KUR’AN-I KERİM",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "KMYV",
+      "name": "KÜLTÜR VE MEDENİYETİMİZE YÖN VERENLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "AVE",
+      "name": "AHLAK VE VATANDAŞLIK EĞİTİMİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "GÖRGÜ",
+      "name": "GÖRGÜ KURALLARI VE NEZAKET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SFE",
+      "name": "SPOR VE FİZİKİ ETKİNLİKLER",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "OOE",
+      "name": "OYUN VE OYUN ETKİNLİKLERİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİJSA",
+      "name": "DİJİTAL SANATLAR",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "MASDE",
+      "name": "MASAL VE DESTANLARIMIZ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "5": [
+        1,
+        2
+       ],
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "GELSA",
+      "name": "GELENEKSEL SANATLAR",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 2,
+      "saat": {
+       "6": [
+        1,
+        2
+       ],
+       "7": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "HALOY",
+      "name": "HALK OYUNLARI",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 4,
+      "saat": {
+       "5": [
+        2
+       ],
+       "6": [
+        2
+       ],
+       "7": [
+        2
+       ],
+       "8": [
+        2
+       ]
+      }
+     }
+    ]
    }
   },
   {
@@ -810,8 +1898,8 @@
    "name": "Anadolu Lisesi",
    "short": "AL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "9": [
      {
@@ -909,46 +1997,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "BİLTE",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -1047,38 +2095,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -1140,107 +2156,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "SMAT",
-      "name": "SEÇMELİ MATEMATİK",
-      "blocks": [
-       2,
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TMAT",
-      "name": "TEMEL MATEMATİK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SFİZ",
-      "name": "SEÇMELİ FİZİK",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SKİM",
-      "name": "SEÇMELİ KİMYA",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SBİY",
-      "name": "SEÇMELİ BİYOLOJİ",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PSİ",
-      "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SOSYO",
-      "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "MANT",
-      "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -1288,115 +2203,859 @@
       "blocks": [
        1
       ]
-     },
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "9": 7,
+     "10": 6,
+     "11": 20,
+     "12": 24
+    },
+    "dersler": [
      {
       "short": "SMAT",
       "name": "SEÇMELİ MATEMATİK",
-      "blocks": [
-       2,
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        6
+       ],
+       "12": [
+        6
+       ]
+      }
      },
      {
       "short": "TMAT",
       "name": "TEMEL MATEMATİK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SFİZ",
       "name": "SEÇMELİ FİZİK",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
      },
      {
       "short": "SKİM",
       "name": "SEÇMELİ KİMYA",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
      },
      {
       "short": "SBİY",
       "name": "SEÇMELİ BİYOLOJİ",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
+     },
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        3,
+        5
+       ],
+       "12": [
+        3,
+        5
+       ]
+      }
+     },
+     {
+      "short": "SEÇTA",
+      "name": "SEÇMELİ TARİH",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "ÇTDT",
       "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SEÇCO",
+      "name": "SEÇMELİ COĞRAFYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "PSİ",
       "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SOSYO",
       "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "MANT",
       "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        10,
+        12
+       ],
+       "12": [
+        2,
+        10,
+        12
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "AUB",
+      "name": "ASTRONOMİ VE UZAY BİLİMLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        2,
+        3
+       ],
+       "10": [
+        2,
+        3
+       ],
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        2,
+        3,
+        4
+       ],
+       "11": [
+        2,
+        3,
+        4
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "THB",
+      "name": "TEMEL HUKUK BİLGİSİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        4
+       ],
+       "10": [
+        1,
+        2,
+        4
+       ],
+       "11": [
+        1,
+        2,
+        4
+       ],
+       "12": [
+        1,
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "OSM",
       "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "TKMT",
       "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -1406,8 +3065,8 @@
    "name": "Hazırlık Sınıflı Anadolu Lisesi",
    "short": "HAL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "0": [
      {
@@ -1571,46 +3230,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "BİLTE",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -1709,38 +3328,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -1802,107 +3389,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "SMAT",
-      "name": "SEÇMELİ MATEMATİK",
-      "blocks": [
-       2,
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TMAT",
-      "name": "TEMEL MATEMATİK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SFİZ",
-      "name": "SEÇMELİ FİZİK",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SKİM",
-      "name": "SEÇMELİ KİMYA",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SBİY",
-      "name": "SEÇMELİ BİYOLOJİ",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PSİ",
-      "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SOSYO",
-      "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "MANT",
-      "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -1950,115 +3436,859 @@
       "blocks": [
        1
       ]
-     },
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "9": 7,
+     "10": 6,
+     "11": 20,
+     "12": 24
+    },
+    "dersler": [
      {
       "short": "SMAT",
       "name": "SEÇMELİ MATEMATİK",
-      "blocks": [
-       2,
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        6
+       ],
+       "12": [
+        6
+       ]
+      }
      },
      {
       "short": "TMAT",
       "name": "TEMEL MATEMATİK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SFİZ",
       "name": "SEÇMELİ FİZİK",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
      },
      {
       "short": "SKİM",
       "name": "SEÇMELİ KİMYA",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
      },
      {
       "short": "SBİY",
       "name": "SEÇMELİ BİYOLOJİ",
-      "blocks": [
-       2,
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        4
+       ],
+       "12": [
+        4
+       ]
+      }
+     },
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        3,
+        5
+       ],
+       "12": [
+        3,
+        5
+       ]
+      }
+     },
+     {
+      "short": "SEÇTA",
+      "name": "SEÇMELİ TARİH",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "ÇTDT",
       "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SEÇCO",
+      "name": "SEÇMELİ COĞRAFYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "PSİ",
       "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SOSYO",
       "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "MANT",
       "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        10,
+        12
+       ],
+       "12": [
+        2,
+        10,
+        12
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "AUB",
+      "name": "ASTRONOMİ VE UZAY BİLİMLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        2,
+        3
+       ],
+       "10": [
+        2,
+        3
+       ],
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        2,
+        3,
+        4
+       ],
+       "11": [
+        2,
+        3,
+        4
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "THB",
+      "name": "TEMEL HUKUK BİLGİSİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        4
+       ],
+       "10": [
+        1,
+        2,
+        4
+       ],
+       "11": [
+        1,
+        2,
+        4
+       ],
+       "12": [
+        1,
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "OSM",
       "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "TKMT",
       "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -2068,8 +4298,8 @@
    "name": "Fen Lisesi",
    "short": "FL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "9": [
      {
@@ -2174,46 +4404,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "BİLTE2",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM (SEÇMELİ)",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -2319,54 +4509,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "SBÇ",
-      "name": "SOSYAL BİLİM ÇALIŞMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -2454,78 +4596,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "PSİ",
-      "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SOSYO",
-      "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "MANT",
-      "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SBÇ",
-      "name": "SOSYAL BİLİM ÇALIŞMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -2599,70 +4669,808 @@
       "blocks": [
        1
       ]
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "9": 5,
+     "10": 4,
+     "11": 4,
+     "12": 8
+    },
+    "dersler": [
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "SEÇTA",
+      "name": "SEÇMELİ TARİH",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "ÇTDT",
       "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SEÇCO",
+      "name": "SEÇMELİ COĞRAFYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "PSİ",
       "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SOSYO",
       "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "MANT",
       "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "GBG",
+      "name": "GENETİK BİLİMİNE GİRİŞ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "TBG",
+      "name": "TIP BİLİMİNE GİRİŞ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "AUB",
+      "name": "ASTRONOMİ VE UZAY BİLİMLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        2,
+        3
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2,
+        3
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "THB",
+      "name": "TEMEL HUKUK BİLGİSİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "OSM",
       "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "TKMT",
       "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -2672,8 +5480,8 @@
    "name": "Hazırlık Sınıflı Fen Lisesi",
    "short": "HFL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "0": [
      {
@@ -2837,46 +5645,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "BİLTE2",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM (SEÇMELİ)",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -2975,54 +5743,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "SBÇ",
-      "name": "SOSYAL BİLİM ÇALIŞMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -3110,78 +5830,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "PSİ",
-      "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SOSYO",
-      "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "MANT",
-      "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SBÇ",
-      "name": "SOSYAL BİLİM ÇALIŞMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "OSM",
-      "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "TKMT",
-      "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -3255,70 +5903,821 @@
       "blocks": [
        1
       ]
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "9": 7,
+     "10": 6,
+     "11": 4,
+     "12": 8
+    },
+    "dersler": [
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "SEÇTA",
+      "name": "SEÇMELİ TARİH",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "ÇTDT",
       "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SEÇCO",
+      "name": "SEÇMELİ COĞRAFYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "PSİ",
       "name": "PSİKOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "SOSYO",
       "name": "SOSYOLOJİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "MANT",
       "name": "MANTIK",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "GBG",
+      "name": "GENETİK BİLİMİNE GİRİŞ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "TBG",
+      "name": "TIP BİLİMİNE GİRİŞ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "AUB",
+      "name": "ASTRONOMİ VE UZAY BİLİMLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        2,
+        3
+       ],
+       "10": [
+        2,
+        3
+       ],
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        2,
+        3,
+        4
+       ],
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "THB",
+      "name": "TEMEL HUKUK BİLGİSİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        4
+       ],
+       "10": [
+        1,
+        2,
+        4
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        4
+       ]
+      }
      },
      {
       "short": "OSM",
       "name": "OSMANLI TÜRKÇESİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "TKMT",
       "name": "TÜRK KÜLTÜR VE MEDENİYET TARİHİ",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2,
+        3
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -3328,8 +6727,8 @@
    "name": "Sosyal Bilimler Lisesi",
    "short": "SBL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "9": [
      {
@@ -3427,38 +6826,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "EDUY",
-      "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "BİLTE",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -3564,38 +6931,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "EDUY",
-      "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -3701,38 +7036,6 @@
       "blocks": [
        2
       ]
-     },
-     {
-      "short": "STDE",
-      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SYDİL",
-      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -3824,30 +7127,603 @@
       "blocks": [
        1
       ]
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "9": 7,
+     "10": 4,
+     "11": 3,
+     "12": 8
+    },
+    "dersler": [
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
      },
      {
       "short": "EDUY",
       "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2,
+        4
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -3857,8 +7733,8 @@
    "name": "Hazırlık Sınıflı Sosyal Bilimler Lisesi",
    "short": "HSBL",
    "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
-   "version": "2025-05-09.1",
-   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Saati sabit seçmeli dersler “Çizelgeden Seçmeli Ders Ekle” listesinde; saati seçeneğe bağlı seçmeli dersleri (ör. 1 ya da 2 saat) elle ekleyin.",
+   "version": "2025-05-09.2",
+   "note": "Ortak dersler ve Rehberlik bu karardaki çizelgeden alınmıştır. Seçmeli dersler Dersler sayfasındaki “Seçmeli Dersler” bölümünde; şubeye Sınıflar sayfasından eklenir.",
    "levels": {
     "0": [
      {
@@ -4008,38 +7884,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "EDUY",
-      "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "BİLTE",
-      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
      }
     ],
     "10": [
@@ -4145,38 +7989,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "EDUY",
-      "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "PTU",
-      "name": "PROJE TASARIMI VE UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "ADAB",
-      "name": "ADABIMUAŞERET",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
      }
     ],
     "11": [
@@ -4282,38 +8094,6 @@
       "blocks": [
        2
       ]
-     },
-     {
-      "short": "STDE",
-      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "SYDİL",
-      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KURAN",
-      "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
-     },
-     {
-      "short": "KKAD",
-      "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -4405,30 +8185,666 @@
       "blocks": [
        1
       ]
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "0": 4,
+     "9": 7,
+     "10": 4,
+     "11": 3,
+     "12": 8
+    },
+    "dersler": [
+     {
+      "short": "STDE",
+      "name": "SEÇMELİ TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "MATUY",
+      "name": "MATEMATİK UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
      },
      {
       "short": "EDUY",
       "name": "EDEBİYAT UYGULAMALARI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "0": [
+        1
+       ],
+       "9": [
+        1
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "0": [
+        2,
+        3
+       ],
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "0": [
+        1,
+        2,
+        3
+       ],
+       "9": [
+        2,
+        3,
+        4
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "KURAN",
       "name": "KUR’AN-I KERİM",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "0": [
+        2
+       ],
+       "9": [
+        2
+       ],
+       "10": [
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
      },
      {
       "short": "KKAD",
       "name": "KUR’AN-I KERİM’İN ANLAM DÜNYASI",
-      "blocks": [
-       2
-      ],
-      "secmeli": true
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 4,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDB",
+      "name": "TEMEL DİNÎ BİLGİLER",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 2,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Din, Ahlak ve Değer",
+      "kez": 3,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "9": [
+        1
+       ],
+       "10": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İKM",
+      "name": "İSLAM KÜLTÜR VE MEDENİYETİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "0": [
+        1,
+        2
+       ],
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "0": [
+        1,
+        2,
+        3
+       ],
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "0": [
+        1,
+        2,
+        3
+       ],
+       "9": [
+        1,
+        2,
+        3
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      }
     ]
    }
@@ -4437,9 +8853,9 @@
    "id": "İlkokul",
    "name": "İlkokul",
    "short": "İLK",
-   "source": "TTKB 09.05.2025 tarihli ve 04 sayılı karar",
-   "version": "2025-05-09",
-   "note": "Zorunlu dersler bu karardaki İlköğretim Kurumları çizelgesinden alınmıştır. Derslerin çoğunu sınıf öğretmeni okutur; öğretmen atamasını Sınıflar penceresinden yapın.",
+   "source": "TTKB 23.09.2026 tarihli ve 115 sayılı karar",
+   "version": "2026-09-23",
+   "note": "Zorunlu dersler bu karardaki İlköğretim Kurumları çizelgesinden alınmıştır (1–3. sınıflarda serbest etkinlik saatleri dahil, haftada 30 saat). Derslerin çoğunu sınıf öğretmeni okutur.",
    "levels": {
     "1": [
      {
@@ -4491,6 +8907,14 @@
        2,
        2,
        1
+      ]
+     },
+     {
+      "short": "SERB",
+      "name": "SERBEST ETKİNLİKLER",
+      "blocks": [
+       2,
+       2
       ]
      }
     ],
@@ -4551,6 +8975,13 @@
        2,
        2,
        1
+      ]
+     },
+     {
+      "short": "SERB",
+      "name": "SERBEST ETKİNLİKLER",
+      "blocks": [
+       2
       ]
      }
     ],
@@ -4619,6 +9050,13 @@
        2,
        2,
        1
+      ]
+     },
+     {
+      "short": "SERB",
+      "name": "SERBEST ETKİNLİKLER",
+      "blocks": [
+       2
       ]
      }
     ],
@@ -4709,7 +9147,8 @@
       ]
      }
     ]
-   }
+   },
+   "year": "2026"
   },
   {
    "id": "Çoklu Yabancı Dil Ortaokulu",
@@ -6196,8 +10635,8 @@
    "name": "Anadolu İmam Hatip Lisesi",
    "short": "AİHL",
    "source": "TTKB 23.07.2025 tarihli ve 26 sayılı karar",
-   "version": "2025-07-23",
-   "note": "Ortak dersler, meslek dersleri ve Rehberlik bu karardaki çizelgeden alınmıştır (hazırlık sınıfı dahil). Seçmeli ders saati toplamı 11. sınıfta 16, 12. sınıfta 21; seçmeli dersleri Sınıflar penceresinden ekleyin. Hafızlık programında hazırlık sınıfı Yabancı Dil yerine Hafızlık Eğitimi okutulur.",
+   "version": "2025-07-23.1",
+   "note": "Ortak dersler, meslek dersleri ve Rehberlik bu karardaki çizelgeden alınmıştır (hazırlık sınıfı dahil). Seçmeli dersler (A grubu) Dersler sayfasındaki “Seçmeli Dersler” bölümünde. Hafızlık programında hazırlık sınıfı Yabancı Dil yerine Hafızlık Eğitimi okutulur.",
    "levels": {
     "0": [
      {
@@ -6264,18 +10703,6 @@
       "blocks": [
        1
       ]
-     },
-     {
-      "short": "HAFIZ",
-      "name": "HAFIZLIK EĞİTİMİ",
-      "blocks": [
-       4,
-       4,
-       4,
-       4,
-       4
-      ],
-      "secmeli": true
      }
     ],
     "9": [
@@ -6581,14 +11008,6 @@
       "blocks": [
        2
       ]
-     },
-     {
-      "short": "İSAH",
-      "name": "İSLAM AHLAKI",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
      }
     ],
     "12": [
@@ -6650,14 +11069,909 @@
       "blocks": [
        2
       ]
+     }
+    ]
+   },
+   "secmeli": {
+    "toplam": {
+     "11": 16,
+     "12": 21
+    },
+    "not": "İmam Hatip Programı toplamları. Program/proje (spor, musiki vb.) B grubu seçmelileri alınmamıştır.",
+    "dersler": [
+     {
+      "short": "AMM",
+      "name": "ARAPÇA (METİN–MÜKÂLEME)",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "FIKOK",
+      "name": "FIKIH OKUMALARI",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "HADME",
+      "name": "HADİS METİNLERİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
      },
      {
       "short": "İSAH",
       "name": "İSLAM AHLAKI",
-      "blocks": [
-       1
-      ],
-      "secmeli": true
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "İBT",
+      "name": "İSLAM BİLİM TARİHİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İSLFE",
+      "name": "İSLAM FELSEFESİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İSLTA",
+      "name": "İSLAM TARİHİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAOT",
+      "name": "KUR’AN OKUMA TEKNİKLERİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAIA",
+      "name": "KUR’AN’IN ANA KONULARI",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "MESUY",
+      "name": "MESLEKİ UYGULAMA",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TASKÜ",
+      "name": "TASAVVUF KÜLTÜRÜ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "TEFOK",
+      "name": "TEFSİR OKUMALARI",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "KAM",
+      "name": "KLASİK AHLAK METİNLERİ",
+      "grup": "Temel İslam Bilimleri",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "DİNMU",
+      "name": "DİNÎ MUSİKİ",
+      "grup": "Türk İslam Sanatları",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "EBRU",
+      "name": "EBRU",
+      "grup": "Türk İslam Sanatları",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "HÜSNÜ",
+      "name": "HÜSNÜHAT",
+      "grup": "Türk İslam Sanatları",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TEZHİ",
+      "name": "TEZHİP",
+      "grup": "Türk İslam Sanatları",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SMAT",
+      "name": "SEÇMELİ MATEMATİK",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        3,
+        4,
+        5,
+        6
+       ],
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "TMAT",
+      "name": "TEMEL MATEMATİK",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBİY",
+      "name": "SEÇMELİ BİYOLOJİ",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3,
+        4
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "SFİZ",
+      "name": "SEÇMELİ FİZİK",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        3,
+        4
+       ],
+       "12": [
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "SKİM",
+      "name": "SEÇMELİ KİMYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        3,
+        4
+       ],
+       "12": [
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3,
+        4,
+        5
+       ],
+       "12": [
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     {
+      "short": "SEÇTA",
+      "name": "SEÇMELİ TARİH",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "12": [
+        2,
+        4
+       ]
+      }
+     },
+     {
+      "short": "ÇTDT",
+      "name": "ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "12": [
+        2,
+        4
+       ]
+      }
+     },
+     {
+      "short": "SEÇCO",
+      "name": "SEÇMELİ COĞRAFYA",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
+     },
+     {
+      "short": "PSİ",
+      "name": "PSİKOLOJİ",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SOSYO",
+      "name": "SOSYOLOJİ",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "MANT",
+      "name": "MANTIK",
+      "grup": "Akademik Çalışmalar",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "SYDİL",
+      "name": "SEÇMELİ BİRİNCİ YABANCI DİL",
+      "grup": "Akademik Çalışmalar",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        10,
+        12
+       ],
+       "12": [
+        2,
+        10,
+        12
+       ]
+      }
+     },
+     {
+      "short": "HEDTD",
+      "name": "HEDEF TEMELLİ DESTEK EĞİTİMİ",
+      "grup": "Akademik Çalışmalar",
+      "saat": {
+       "12": [
+        3,
+        4,
+        5,
+        6
+       ]
+      }
+     },
+     {
+      "short": "FBU",
+      "name": "FEN BİLİMLERİ UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        2,
+        3
+       ],
+       "12": [
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "AUB",
+      "name": "ASTRONOMİ VE UZAY BİLİMLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SBÇ",
+      "name": "SOSYAL BİLİM ÇALIŞMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        2,
+        3,
+        4
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "PTU",
+      "name": "PROJE TASARIMI VE UYGULAMALARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        2,
+        3,
+        4
+       ],
+       "12": [
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     {
+      "short": "DÜŞEĞ",
+      "name": "DÜŞÜNME EĞİTİMİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1
+       ],
+       "12": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "DİH",
+      "name": "DEMOKRASİ VE İNSAN HAKLARI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1
+       ],
+       "12": [
+        1
+       ]
+      }
+     },
+     {
+      "short": "STGG",
+      "name": "SÜRDÜRÜLEBİLİR TARIM VE GIDA GÜVENLİĞİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "İÇYÇ",
+      "name": "İKLİM, ÇEVRE VE YENİLİKÇİ ÇÖZÜMLER",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "THB",
+      "name": "TEMEL HUKUK BİLGİSİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "GİRİŞ",
+      "name": "GİRİŞİMCİLİK",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "METTA",
+      "name": "METİN TAHLİLLERİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 2,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SİYD",
+      "name": "SEÇMELİ İKİNCİ YABANCI DİL",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 4,
+      "saat": {
+       "9": [
+        1,
+        2
+       ],
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
+     },
+     {
+      "short": "OSM",
+      "name": "OSMANLI TÜRKÇESİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 3,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        2
+       ],
+       "12": [
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDC",
+      "name": "TÜRK DÜNYASI COĞRAFYASI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "saat": {
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTE",
+      "name": "ORTAK TÜRK EDEBİYATI",
+      "grup": "İnsan, Toplum ve Bilim",
+      "saat": {
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "OTT",
+      "name": "ORTAK TÜRK TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "saat": {
+       "11": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TDT",
+      "name": "TÜRK DÜŞÜNCE TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "10": [
+        1
+       ],
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TÜRKM",
+      "name": "TÜRK KÜLTÜR VE MEDENİYETİ TARİHİ",
+      "grup": "İnsan, Toplum ve Bilim",
+      "kez": 1,
+      "saat": {
+       "11": [
+        2,
+        4
+       ],
+       "12": [
+        2,
+        4
+       ]
+      }
+     },
+     {
+      "short": "ADAB",
+      "name": "ADABIMUAŞERET",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "TSHA",
+      "name": "TÜRK SOSYAL HAYATINDA AİLE",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 1,
+      "saat": {
+       "11": [
+        1,
+        2
+       ],
+       "12": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "short": "SPOEĞ",
+      "name": "SPOR EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
+     },
+     {
+      "short": "SANEĞ",
+      "name": "SANAT EĞİTİMİ",
+      "grup": "Kültür, Sanat ve Spor",
+      "kez": 3,
+      "saat": {
+       "10": [
+        1,
+        2
+       ],
+       "11": [
+        1,
+        2,
+        3
+       ],
+       "12": [
+        1,
+        2,
+        3
+       ]
+      }
      }
     ]
    }
