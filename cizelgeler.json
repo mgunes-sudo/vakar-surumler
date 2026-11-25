@@ -1,0 +1,1076 @@
+{
+ "surum": 1,
+ "cizelgeler": [
+  {
+   "id": "İmam Hatip Ortaokulu",
+   "name": "İmam Hatip Ortaokulu",
+   "short": "İHO",
+   "source": "TTKB 23.09.2026 tarihli ve 117 sayılı karar",
+   "version": "2026-09-23",
+   "note": "Zorunlu ve meslek dersleri bu karardaki çizelgeden alınmıştır. Seçmeli dersleri (5., 6. ve 7. sınıfta 1 saat; 8. sınıfta 2 saat) kendiniz ekleyin.",
+   "levels": {
+    "5": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "İNGİLİZCE",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "ARPÇ",
+      "name": "ARAPÇA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KURAN",
+      "name": "KURANI KERİM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "6": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "İNGİLİZCE",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TEMDB",
+      "name": "TEMEL DİNİ BİLGİLER",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "ARPÇ",
+      "name": "ARAPÇA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KURAN",
+      "name": "KURANI KERİM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "7": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "İNGİLİZCE",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TEMDB",
+      "name": "TEMEL DİNİ BİLGİLER",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "TEKTA",
+      "name": "TEKNOLOJİ TASARIM",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "KURAN",
+      "name": "KURANI KERİM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "ARPÇ",
+      "name": "ARAPÇA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     }
+    ],
+    "8": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "İNGİLİZCE",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "PEYHA",
+      "name": "PEYGAMBERİMİZİN HAYATI",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REVKP",
+      "name": "REHBERLİK VE KARİYER PLANLAMA",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TEKTA",
+      "name": "TEKNOLOJİ TASARIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "ARPÇ",
+      "name": "ARAPÇA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KURAN",
+      "name": "KURANI KERİM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "Ortaokul",
+   "name": "Ortaokul",
+   "short": "ORT",
+   "source": "TTKB 23.09.2026 tarihli ve 115 sayılı karar",
+   "version": "2026-09-23",
+   "note": "Zorunlu dersler bu karardaki çizelgeden alınmıştır. Seçmeli dersleri (5., 6. ve 7. sınıfta 5 saat; 8. sınıfta 6 saat) kendiniz ekleyin.",
+   "levels": {
+    "5": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "YABANCI DİL",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "6": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "YABANCI DİL",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİLTE",
+      "name": "BİLİŞİM TEKNOLOJİLERİ VE YAZILIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "7": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "SOSYAL",
+      "name": "SOSYAL BİLGİLER",
+      "blocks": [
+       2,
+       1
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TEKTA",
+      "name": "TEKNOLOJİ VE TASARIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "8": [
+     {
+      "short": "TRKÇ",
+      "name": "TÜRKÇE",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "FEN",
+      "name": "FEN BİLİMLERİ",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "İNKTA",
+      "name": "T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "İNG",
+      "name": "YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "DİKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GÖRSA",
+      "name": "GÖRSEL SANATLAR",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "MÜZİK",
+      "name": "MÜZİK",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TEKTA",
+      "name": "TEKNOLOJİ VE TASARIM",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "Anadolu Lisesi",
+   "name": "Anadolu Lisesi",
+   "short": "AL",
+   "source": "TTKB 09.05.2025 tarihli ve 05 sayılı karar",
+   "version": "2025-05-09",
+   "note": "Ortak dersler bu karardaki çizelgeden alınmıştır (9., 10. ve 11. sınıflar). Seçmeli dersleri ve 12. sınıfı kendiniz girin.",
+   "levels": {
+    "9": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "SAĞLK",
+      "name": "SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ",
+      "blocks": [
+       1
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "10": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "COĞ",
+      "name": "COĞRAFYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "MAT",
+      "name": "MATEMATİK",
+      "blocks": [
+       2,
+       2,
+       2
+      ]
+     },
+     {
+      "short": "FİZ",
+      "name": "FİZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "KİM",
+      "name": "KİMYA",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "BİY",
+      "name": "BİYOLOJİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ],
+    "11": [
+     {
+      "short": "TDE",
+      "name": "TÜRK DİLİ VE EDEBİYATI",
+      "blocks": [
+       2,
+       2,
+       1
+      ]
+     },
+     {
+      "short": "DKAB",
+      "name": "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "TAR",
+      "name": "TARİH",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "FEL",
+      "name": "FELSEFE",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "YDİL",
+      "name": "BİRİNCİ YABANCI DİL",
+      "blocks": [
+       2,
+       2
+      ]
+     },
+     {
+      "short": "BEDEN",
+      "name": "BEDEN EĞİTİMİ VE SPOR",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "GSM",
+      "name": "GÖRSEL SANATLAR/MÜZİK",
+      "blocks": [
+       2
+      ]
+     },
+     {
+      "short": "REHVY",
+      "name": "REHBERLİK VE YÖNLENDİRME",
+      "blocks": [
+       1
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
