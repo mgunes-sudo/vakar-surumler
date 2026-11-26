@@ -1,17 +1,17 @@
 {
- "surum": "0.12.0",
+ "surum": "0.12.1",
  "tarih": "2026-11-26",
- "notlar": "## Vakar 0.12.0",
+ "notlar": "## Vakar 0.12.1",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "909bec263dc47ed13ecfe1076867c240660a906470bcb8343e47e51b58a4820d",
-   "boyut": 98717495
+   "sha256": "7fbf605f52d047041b76b6129e2b0e2c1157327b8bfca8bf526d1beb5f30ff9c",
+   "boyut": 98796304
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "ea044ffd0f4b3680e36fbbf5507b9f495f2d34b0a5b7f70d0d96d1f6a83d7138",
-   "boyut": 100531776
+   "sha256": "783ab05f23c63ff3da1917f27a2427004167ba3a911efb8575fd11bcffbf87cd",
+   "boyut": 100533520
   }
  }
 }
