@@ -1,17 +1,17 @@
 {
- "surum": "0.11.0",
+ "surum": "0.12.0",
  "tarih": "2026-11-26",
- "notlar": "- **Kısmî sınıf (ilkokul şubesi):** Haftada 30 saat olur ve diğer sınıflar gibi zaman kısıt tablosu vardır. Branş derslerinin saatleri artık elle sabitlenmez; program, öğretmenin uygun olduğu ve sınıfın açık bıraktığı saatlere kendisi yerleştirir. Eski dosyalardaki sabit saatler kilitli kart olarak korunur. Kısmî sınıflar sınıf el programlarında da çıkar.\n- **Rehberlik dersi:** 2026-2027 öğretim yılında 8. sınıflarda Rehberlik ve Kariyer Planlama, 5–7. sınıflarda Rehberlik ve Yönlendirme okutulur; 2027-2028'den itibaren bütün sınıflarda Rehberlik ve Yönlendirme. İki ders adı da rehberlik dersi sayılır; Yeni Öğretim Yılı sihirbazı geçişi kendisi yapar. Seçmeli ders fazlalığı uyarısı artık hangi derslerin fazla olduğunu da yazar.\n- **Ders Atama Tablosu'nda öğretmen renkleri:** Her öğretmenin kendi açık rengi vardır. Bir hücrenin üzerine gelince o öğretmenin bütün dersleri öne çıkar, tablonun altında adı ve ders yükü görünür. Alttaki listeden bir öğretmene tıklayarak vurguyu sabitleyebilirsiniz. Renk, Öğretmenler sayfasında baş harflerin bulunduğu daireye tıklanarak değiştirilir.\n- **Kıstas önem renkleri:** Önem artık beş düğmeden seçilir (Kapalı gri, Düşük açık yeşil, Normal turkuaz, Yüksek turuncu, Kesin kırmızı); satırın solundaki şerit de aynı rengi alır.\n- **Küçük kısıt tablosu:** Sınıflar ve Dersler sayfalarındaki \"Kısıt\" düğmeleri yerine dersin kapalı saatlerini gösteren küçük bir tablo geldi; tıklayınca düzenlenir.\n- **Daha okunaklı tablolar:** Sınıfların ders listesi (zorunlu ve seçmeli dersler ayrı, blok düzeni ve öğretmenin ders yüküyle), Derslikler, Nöbet Yerleri, Tatil Günleri ve çizelge düzenleyici yeni görünümde. Silme düğmeleri küçük çöp kutusu simgesine dönüştü.\n- **Zaman Ayarları** yatay kaydırma gerektirmeyen dikey düzene geçti: günler artırma ve azaltma düğmeleriyle, ders saatleri teneffüs ve öğle arasıyla birlikte alt alta.\n- **Öğretmen İstek Formu** (Raporlar): Her öğretmen için gelemeyeceği saatleri işaretleyeceği yazdırılabilir form. Dağıtım yapılmadan da alınabilir.\n- **En Zorlanan Öğretmenler:** Dağıtımdan sonra boş saati en çok olan ya da gereğinden çok gün gelen beş öğretmen listelenir; her biri tek tıkla yeniden dağıtılabilir.\n- **Pano'da son açılan dosyalar** (masaüstü sürümü).\n- **Nöbet:** \"Program belirlesin\" düzeninde öğretmenin nöbetleri farklı günlere yayılır; aynı öğretmen her hafta aynı güne düşmez. Dağıtım Ayarları sadeleşti; haftalık en fazla nöbet sınırı artık bir onay kutusuyla kapatılabilir. Bir gün silindiğinde öğretmenlerin nöbet günü tercihleri de kayar.\n- Program sayfalar arasında belirgin biçimde daha hızlı geçiyor; yazarken her harf ayrı bir \"Geri Al\" adımı olmuyor.\n- Üst menü şeridi tek satıra indi; Yardım menüsündeki gereksiz Pano bağlantısı kaldırıldı. Onay kutuları her yerde aynı boyda.\n- Sınıf ya da derslik silindiğinde bağlı kayıtlar da temizlenir. Ders özelliği tahmini genişletildi (ör. Rehberlik sözel sayılır).\n- Program altyapısı (Electron) güncel ve güvenlik desteği süren sürüme yükseltildi.",
+ "notlar": "## Vakar 0.12.0",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "0aed43359881d189c25faba9ae9eea4fe21ba912a68b7180d46809ea5b5c1b92",
-   "boyut": 98729125
+   "sha256": "909bec263dc47ed13ecfe1076867c240660a906470bcb8343e47e51b58a4820d",
+   "boyut": 98717495
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "f8421bc843774d9e21efa354c4d7348830c5688bee1ecdd5eb311fe95719a676",
-   "boyut": 100514180
+   "sha256": "ea044ffd0f4b3680e36fbbf5507b9f495f2d34b0a5b7f70d0d96d1f6a83d7138",
+   "boyut": 100531776
   }
  }
 }

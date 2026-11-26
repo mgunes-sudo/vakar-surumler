@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.11.0** (2026-11-26)
+Son sürüm: **0.12.0** (2026-11-26)
 
 ## İndir
 
@@ -24,22 +24,22 @@ Okullar için ücretsiz ders dağıtım ve nöbet programı.
 - **Windows:** `Vakar-Kurulum.zip` dosyasını indirin, içindeki kurulum dosyasını çalıştırın. Windows "tanınmayan uygulama" uyarısı verirse **Ek bilgi → Yine de çalıştır**'a basın.
 - **Pardus / Linux:** `vakar_amd64.deb` dosyasını indirip çift tıklayın.
 
-**Bu sürümde yeni**
-- **Kısmî sınıf (ilkokul şubesi):** Haftada 30 saat olur ve diğer sınıflar gibi zaman kısıt tablosu vardır. Branş derslerinin saatleri artık elle sabitlenmez; program, öğretmenin uygun olduğu ve sınıfın açık bıraktığı saatlere kendisi yerleştirir. Eski dosyalardaki sabit saatler kilitli kart olarak korunur. Kısmî sınıflar sınıf el programlarında da çıkar.
-- **Rehberlik dersi:** 2026-2027 öğretim yılında 8. sınıflarda Rehberlik ve Kariyer Planlama, 5–7. sınıflarda Rehberlik ve Yönlendirme okutulur; 2027-2028'den itibaren bütün sınıflarda Rehberlik ve Yönlendirme. İki ders adı da rehberlik dersi sayılır; Yeni Öğretim Yılı sihirbazı geçişi kendisi yapar. Seçmeli ders fazlalığı uyarısı artık hangi derslerin fazla olduğunu da yazar.
-- **Ders Atama Tablosu'nda öğretmen renkleri:** Her öğretmenin kendi açık rengi vardır. Bir hücrenin üzerine gelince o öğretmenin bütün dersleri öne çıkar, tablonun altında adı ve ders yükü görünür. Alttaki listeden bir öğretmene tıklayarak vurguyu sabitleyebilirsiniz. Renk, Öğretmenler sayfasında baş harflerin bulunduğu daireye tıklanarak değiştirilir.
-- **Kıstas önem renkleri:** Önem artık beş düğmeden seçilir (Kapalı gri, Düşük açık yeşil, Normal turkuaz, Yüksek turuncu, Kesin kırmızı); satırın solundaki şerit de aynı rengi alır.
-- **Küçük kısıt tablosu:** Sınıflar ve Dersler sayfalarındaki "Kısıt" düğmeleri yerine dersin kapalı saatlerini gösteren küçük bir tablo geldi; tıklayınca düzenlenir.
-- **Daha okunaklı tablolar:** Sınıfların ders listesi (zorunlu ve seçmeli dersler ayrı, blok düzeni ve öğretmenin ders yüküyle), Derslikler, Nöbet Yerleri, Tatil Günleri ve çizelge düzenleyici yeni görünümde. Silme düğmeleri küçük çöp kutusu simgesine dönüştü.
-- **Zaman Ayarları** yatay kaydırma gerektirmeyen dikey düzene geçti: günler artırma ve azaltma düğmeleriyle, ders saatleri teneffüs ve öğle arasıyla birlikte alt alta.
-- **Öğretmen İstek Formu** (Raporlar): Her öğretmen için gelemeyeceği saatleri işaretleyeceği yazdırılabilir form. Dağıtım yapılmadan da alınabilir.
-- **En Zorlanan Öğretmenler:** Dağıtımdan sonra boş saati en çok olan ya da gereğinden çok gün gelen beş öğretmen listelenir; her biri tek tıkla yeniden dağıtılabilir.
-- **Pano'da son açılan dosyalar** (masaüstü sürümü).
-- **Nöbet:** "Program belirlesin" düzeninde öğretmenin nöbetleri farklı günlere yayılır; aynı öğretmen her hafta aynı güne düşmez. Dağıtım Ayarları sadeleşti; haftalık en fazla nöbet sınırı artık bir onay kutusuyla kapatılabilir. Bir gün silindiğinde öğretmenlerin nöbet günü tercihleri de kayar.
-- Program sayfalar arasında belirgin biçimde daha hızlı geçiyor; yazarken her harf ayrı bir "Geri Al" adımı olmuyor.
-- Üst menü şeridi tek satıra indi; Yardım menüsündeki gereksiz Pano bağlantısı kaldırıldı. Onay kutuları her yerde aynı boyda.
-- Sınıf ya da derslik silindiğinde bağlı kayıtlar da temizlenir. Ders özelliği tahmini genişletildi (ör. Rehberlik sözel sayılır).
-- Program altyapısı (Electron) güncel ve güvenlik desteği süren sürüme yükseltildi.
+**Düzeltmeler**
+- Ders Programı sayfasında kısmî sınıfların ve boş saati olan öğretmenlerin satırları çok uzun görünüyordu; düzeltildi. Kısmî sınıfta ve 8. saati kapalı şubelerde kapalı saatler artık taralı görünür.
+- "Öğretmene göre renk" seçildiğinde öğretmenler Ders Programı'nda da Ders Atama Tablosu'ndaki renkleriyle görünür.
+- **Derslik programı:** Sınıfın o saatte başka bir yerde (ör. spor salonunda) olduğu saatler artık boş kalmıyor; taralı hücrede "5/A Spor Salonunda · Beden Eğitimi ve Spor" gibi yazıyor. PDF, yazdırma, Okul Paketi ve Excel çıktısında da böyle.
+- Dersler sayfasındaki çöp kutusu artık her zaman çalışır. Ders sınıflara atanmışsa önce sorar; atamaları ve kartlarıyla birlikte siler (Geri Al ile geri alınabilir).
+- Dersliği olmayan sınıflara (kısmî sınıflar dahil) tek tıkla derslik açılabilir.
+
+**Yeni görünümler**
+- **Dersler:** Zorunlu Dersler, Okutulan Seçmeliler ve Çizelgedeki Seçmeliler sekmeleri ile arama kutusu. Seçmeli dersler doğrudan bu sayfadan şubelere eklenip çıkarılabilir. "Kullanım" sütununda dersin okutulduğu sınıflar görünür; tıklayınca her sınıfın öğretmeni, saati ve blok düzeni açılır. Her dersin konusuna göre bir simgesi var; simgenin rengi dersin özelliğini gösterir. Simgeler Sınıflar sayfasında ve Ders Atama Tablosu'nda da görünür.
+- **Uygunluk ve kısıt tabloları:** Köşede çapraz çizgi (Saat / Gün), yuvarlak hücreler, olmayan saatler taralı; üzerine gelince gün ve saat başlıkları vurgulanır.
+- **Kıstaslar:** Kıstaslar simgeli kartlarda; önem beş renkli düğmeyle seçilir, sayılar artı ve eksi düğmeleriyle ayarlanır. Üstte açık, kesin ve kapalı kıstas sayıları ile süzgeç var.
+- **Dağıtım süresi:** Hızlı, Ayrıntılı ve Çok Ayrıntılı seçenekleri süre ve kalite göstergeli kartlarda.
+- **Nöbet:** Çizelgede açılır listeler yerine öğretmen adları kendi renkleriyle görünür; boş yerde "Ekle" ile o gün uygun öğretmenler önerilir. Haftalar arasında düğmeyle geçilir; çizelge bu haftayla açılır. Bir ada tıklayınca öğretmenin bütün nöbetleri vurgulanır. Öğretmen tercihleri üç karta ayrıldı; nöbet yerleri sürükleyerek sıralanır; tatiller öğretim yılı şerit takviminde görünür; nöbet sayıları çubuklarla gösterilir; görev talimatı maddeleri düz metin olarak düzenlenir. Dönem ve nöbet düzeni ayarları "Ayarlar" sekmesine taşındı.
+- **Raporlar:** Rapor türleri solda gruplu bir listede; Okul Paketi ayrı bir kartta. Tek bir sınıfın, öğretmenin ya da dersliğin çıktısı alınabilir. Çıktının ilk sayfaları küçük önizleme olarak görünür; tıklayınca tam görünüm açılır.
+- **Okul Bilgileri:** Okul kimlik kartı, imza kartları, girilen bilgilerin çıktıda nasıl görüneceğini gösteren önizleme ve simgeli okul türü seçimi.
+- **Derslikler:** Ortak alanlar simgeli kartlarda; bağlı dersler, aynı anda kaç sınıf alabileceği ve haftalık doluluk oranıyla. Sınıf derslikleri kısa kutucuklar olarak görünür.
 
 Kayıtlı programlarınız ve yedekleriniz güncellemeden etkilenmez.
 
