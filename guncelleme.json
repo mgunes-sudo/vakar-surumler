@@ -1,17 +1,17 @@
 {
- "surum": "0.10.2",
+ "surum": "0.11.0",
  "tarih": "2026-11-26",
- "notlar": "- **Spor Ortaokulu** (TTKB 2026/113) ve **Güzel Sanatlar Müzik İlkokulu ve Ortaokulu** (TTKB 2026/114) okul türleri eklendi. Zorunlu dersler, spor ve müzik alan dersleri ile seçmeli dersler (her düzeyde 3 saat) hazır gelir.\n- **Spor Lisesi** ve **Tematik Program Uygulayan Spor Lisesi** çizelgeleri eklendi; Spor Lisesi okul türünde şube türü olarak seçilir.\n- **Güzel Sanatlar Lisesi**: Görsel Sanatlar, Tiyatro (TTKB 2025/06), Müzik ve Türk Müziği (TTKB 2025/07) çizelgeleri, seçmeli ders havuzlarıyla birlikte eklendi.\n- Haftada 40 saat ders gören şubelerde (Spor Ortaokulu, Güzel Sanatlar Müzik Ortaokulu) 8. ders saati kendiliğinden kapanmaz. Bu okullarda Zaman sayfasından her günü 8 ders saati yapmanız gerekir; program eksik saati uyarıyla bildirir.\n- Nöbet uyarısındaki \"Bu Dönem\" yazımı \"Bu dönem\" olarak düzeltildi.",
+ "notlar": "- **Kısmî sınıf (ilkokul şubesi):** Haftada 30 saat olur ve diğer sınıflar gibi zaman kısıt tablosu vardır. Branş derslerinin saatleri artık elle sabitlenmez; program, öğretmenin uygun olduğu ve sınıfın açık bıraktığı saatlere kendisi yerleştirir. Eski dosyalardaki sabit saatler kilitli kart olarak korunur. Kısmî sınıflar sınıf el programlarında da çıkar.\n- **Rehberlik dersi:** 2026-2027 öğretim yılında 8. sınıflarda Rehberlik ve Kariyer Planlama, 5–7. sınıflarda Rehberlik ve Yönlendirme okutulur; 2027-2028'den itibaren bütün sınıflarda Rehberlik ve Yönlendirme. İki ders adı da rehberlik dersi sayılır; Yeni Öğretim Yılı sihirbazı geçişi kendisi yapar. Seçmeli ders fazlalığı uyarısı artık hangi derslerin fazla olduğunu da yazar.\n- **Ders Atama Tablosu'nda öğretmen renkleri:** Her öğretmenin kendi açık rengi vardır. Bir hücrenin üzerine gelince o öğretmenin bütün dersleri öne çıkar, tablonun altında adı ve ders yükü görünür. Alttaki listeden bir öğretmene tıklayarak vurguyu sabitleyebilirsiniz. Renk, Öğretmenler sayfasında baş harflerin bulunduğu daireye tıklanarak değiştirilir.\n- **Kıstas önem renkleri:** Önem artık beş düğmeden seçilir (Kapalı gri, Düşük açık yeşil, Normal turkuaz, Yüksek turuncu, Kesin kırmızı); satırın solundaki şerit de aynı rengi alır.\n- **Küçük kısıt tablosu:** Sınıflar ve Dersler sayfalarındaki \"Kısıt\" düğmeleri yerine dersin kapalı saatlerini gösteren küçük bir tablo geldi; tıklayınca düzenlenir.\n- **Daha okunaklı tablolar:** Sınıfların ders listesi (zorunlu ve seçmeli dersler ayrı, blok düzeni ve öğretmenin ders yüküyle), Derslikler, Nöbet Yerleri, Tatil Günleri ve çizelge düzenleyici yeni görünümde. Silme düğmeleri küçük çöp kutusu simgesine dönüştü.\n- **Zaman Ayarları** yatay kaydırma gerektirmeyen dikey düzene geçti: günler artırma ve azaltma düğmeleriyle, ders saatleri teneffüs ve öğle arasıyla birlikte alt alta.\n- **Öğretmen İstek Formu** (Raporlar): Her öğretmen için gelemeyeceği saatleri işaretleyeceği yazdırılabilir form. Dağıtım yapılmadan da alınabilir.\n- **En Zorlanan Öğretmenler:** Dağıtımdan sonra boş saati en çok olan ya da gereğinden çok gün gelen beş öğretmen listelenir; her biri tek tıkla yeniden dağıtılabilir.\n- **Pano'da son açılan dosyalar** (masaüstü sürümü).\n- **Nöbet:** \"Program belirlesin\" düzeninde öğretmenin nöbetleri farklı günlere yayılır; aynı öğretmen her hafta aynı güne düşmez. Dağıtım Ayarları sadeleşti; haftalık en fazla nöbet sınırı artık bir onay kutusuyla kapatılabilir. Bir gün silindiğinde öğretmenlerin nöbet günü tercihleri de kayar.\n- Program sayfalar arasında belirgin biçimde daha hızlı geçiyor; yazarken her harf ayrı bir \"Geri Al\" adımı olmuyor.\n- Üst menü şeridi tek satıra indi; Yardım menüsündeki gereksiz Pano bağlantısı kaldırıldı. Onay kutuları her yerde aynı boyda.\n- Sınıf ya da derslik silindiğinde bağlı kayıtlar da temizlenir. Ders özelliği tahmini genişletildi (ör. Rehberlik sözel sayılır).\n- Program altyapısı (Electron) güncel ve güvenlik desteği süren sürüme yükseltildi.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "8dbd93563564fff4fbfe760a19e4d74dc2ceb1910e0b6d6716efce983cb1f2a5",
-   "boyut": 84219769
+   "sha256": "0aed43359881d189c25faba9ae9eea4fe21ba912a68b7180d46809ea5b5c1b92",
+   "boyut": 98729125
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "df9922b7148dcce8872a79625d06eed9996541e0b7b6b3d63aa3d879292501e4",
-   "boyut": 77965774
+   "sha256": "f8421bc843774d9e21efa354c4d7348830c5688bee1ecdd5eb311fe95719a676",
+   "boyut": 100514180
   }
  }
 }
