@@ -1,17 +1,17 @@
 {
- "surum": "0.13.1",
+ "surum": "0.14.0",
  "tarih": "2026-11-27",
- "notlar": "# Vakar 0.13.1\n\n- **Yeni simge:** Vakar'ın simgesi ders tablosu hücrelerinden oluşan bir V oldu.\n- **Raporlar:** Tam görünümde sayfalar tek tek, ekrana sığarak gösterilir; oklarla ya da klavyeyle önceki ve sonraki sayfaya geçilir.\n- **Düzeltmeler:** Öğretmen ve sınıf listelerindeki ders yükü çubuğu, Raporlar'daki düğmelerin yerleşimi, İstek Formu'ndaki \"Bütün Gün\" başlığı, Sınıf Dersliği Ekle'deki çift işaret.\n- **Metinler:** Arayüz metinleri dil bilgisi ve yazım kurallarına göre gözden geçirildi.",
+ "notlar": "# Vakar 0.14.0\n\n- **Yeni okul türleri:** İlkokul ve Ortaokul; İlkokul ve İmam Hatip Ortaokulu; İlkokul, Ortaokul ve İmam Hatip Ortaokulu. İlkokul şubeleri günde 6 saat ders yapar.\n- **Nöbet:** İlkokul, Ortaokul ve Lise öğretmeni ayrı düğmelerle eklenir; nöbet yerleri kademeye ayrılabilir. Çift nöbet hücreleri yeni, daha kolay bir tabloyla seçilir.\n- **Görünüm:** Sekmelerde simgeler; öğretmenin girdiği dersler yeni bir listeyle gösterilir; gün sayısı kartı sadeleşti.\n- **Düzeltmeler:** \"Bu sayfa ne işe yarar?\" düğmesi bütün sayfalarda çalışır; nöbet listesindeki taşma giderildi; güncellemeden sonra masaüstü ve görev çubuğu simgesi yenilenir.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "06e5f11e3a85ffca38b46bc8a35bf72b0ccd4273049810c4fb642ccbbe83f105",
-   "boyut": 95998122
+   "sha256": "9e69a29252f0f4d441ad84fafa248d6ff0e8fd3b2e4569fe1f802a87763af366",
+   "boyut": 96054741
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "e2df2ec090bf88f1e27e974400e6206479a96504615dbff124ffa52045e7837e",
-   "boyut": 97723656
+   "sha256": "71ef6e363bae945fcbda3006609928417599494f241d8e84883eea9697be1aea",
+   "boyut": 97726984
   }
  }
 }

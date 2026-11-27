@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.13.1** (2026-11-27)
+Son sürüm: **0.14.0** (2026-11-27)
 
 ## İndir
 
@@ -16,12 +16,12 @@ Son sürüm: **0.13.1** (2026-11-27)
 - **Pardus:** .deb dosyasına çift tıklayıp kurun.
 - Program kurulduktan sonra yeni sürümleri **kendiliğinden** bulur ve sorup kurar; bu sayfaya yeniden gelmeniz gerekmez.
 
-# Vakar 0.13.1
+# Vakar 0.14.0
 
-- **Yeni simge:** Vakar'ın simgesi ders tablosu hücrelerinden oluşan bir V oldu.
-- **Raporlar:** Tam görünümde sayfalar tek tek, ekrana sığarak gösterilir; oklarla ya da klavyeyle önceki ve sonraki sayfaya geçilir.
-- **Düzeltmeler:** Öğretmen ve sınıf listelerindeki ders yükü çubuğu, Raporlar'daki düğmelerin yerleşimi, İstek Formu'ndaki "Bütün Gün" başlığı, Sınıf Dersliği Ekle'deki çift işaret.
-- **Metinler:** Arayüz metinleri dil bilgisi ve yazım kurallarına göre gözden geçirildi.
+- **Yeni okul türleri:** İlkokul ve Ortaokul; İlkokul ve İmam Hatip Ortaokulu; İlkokul, Ortaokul ve İmam Hatip Ortaokulu. İlkokul şubeleri günde 6 saat ders yapar.
+- **Nöbet:** İlkokul, Ortaokul ve Lise öğretmeni ayrı düğmelerle eklenir; nöbet yerleri kademeye ayrılabilir. Çift nöbet hücreleri yeni, daha kolay bir tabloyla seçilir.
+- **Görünüm:** Sekmelerde simgeler; öğretmenin girdiği dersler yeni bir listeyle gösterilir; gün sayısı kartı sadeleşti.
+- **Düzeltmeler:** "Bu sayfa ne işe yarar?" düğmesi bütün sayfalarda çalışır; nöbet listesindeki taşma giderildi; güncellemeden sonra masaüstü ve görev çubuğu simgesi yenilenir.
 
 
 Dosyaların SHA256 özetleri: [SHA256SUMS.txt](SHA256SUMS.txt)
