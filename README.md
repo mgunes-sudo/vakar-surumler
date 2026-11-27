@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.12.1** (2026-11-26)
+Son sürüm: **0.12.2** (2026-11-27)
 
 ## İndir
 
@@ -16,21 +16,18 @@ Son sürüm: **0.12.1** (2026-11-26)
 - **Pardus:** .deb dosyasına çift tıklayıp kurun.
 - Program kurulduktan sonra yeni sürümleri **kendiliğinden** bulur ve sorup kurar; bu sayfaya yeniden gelmeniz gerekmez.
 
-## Bu sürüm
+# Vakar 0.12.2
 
-Okullar için ücretsiz ders dağıtım ve nöbet programı.
-
-**Hangi dosyayı indirmeliyim?**
-- **Windows:** `Vakar-Kurulum.zip` dosyasını indirin, içindeki kurulum dosyasını çalıştırın. Windows "tanınmayan uygulama" uyarısı verirse **Ek bilgi → Yine de çalıştır**'a basın.
-- **Pardus / Linux:** `vakar_amd64.deb` dosyasını indirip çift tıklayın.
-
-**Bu sürümde**
-- Derslikler sayfasında ortak alanların silme düğmesi görünmüyordu; artık kartın sağ üst köşesinde.
-- Sınıf dersliklerinin silme düğmesi her zaman görünür ve tıklanması kolay. Dersliğe tıklayınca açılan düzenleme kutusunda da "Dersliği Sil" düğmesi var.
-- Derslikler sayfasında Sınıf Derslikleri üstte, Ortak Alanlar altta.
-- Programda kullanılan simge setinin ve yazı tipinin lisans metinleri kurulum klasöründeki LİSANSLAR.txt dosyasına taşındı.
-
-Kayıtlı programlarınız ve yedekleriniz güncellemeden etkilenmez.
+- **Yerleşmeyen dersler:** Ders Programı'nın üstünde yerleşmeyen bloklar kart olarak görünür. Kart tabloya sürüklenir ya da karta tıklayıp yeşil bir hücreye tıklanır; dolu saate bırakılırsa yer değiştirme sorulur. Elle yerleşen kart kilitlenir. Tablodaki bir kart şeride bırakılarak ya da sağ tıklayıp "Tablodan Kaldır" ile tablodan kaldırılabilir.
+- **Sınıflar sırası:** Yan panelde Sınıflar artık Zaman'ın hemen altında; Başlangıç Rehberi yeni sıraya göre yenilendi.
+- **Çizelgeyle Karşılaştır:** Sınıfın dersleri ile haftalık ders çizelgesi satır satır karşılaştırılır; farklar tek tıkla düzeltilir.
+- **Seçmeli dersler:** Yeni kıstas "Seçmeli dersler bütün sınıflarda ortak saatlere gelsin". Seçmeli ders grubu uyarısı (ortaokul ve lise kurallarıyla). İlkokulda Masal ve Geleneksel Oyun Saati ayrı gösterilir.
+- **Öğretmen eklerken:** Kısa ad kendiliğinden önerilir; branş, okulun derslerinden seçilir ya da elle yazılır.
+- **Derslikler:** "Sınıf Dersliği Ekle" ile adı ve sınıfı elle girilen derslik eklenebilir.
+- **Açılış ekranı:** Yeni, kodla çizilen açılış; özel günlerde kutlama ve anma. Saygı yazısı Hakkında ve Öneriler'de.
+- **Sorun Bildir:** Yardım menüsünden adları kodlanmış, kişisel bilgi içermeyen bir dosya hazırlanır.
+- **Kısayollar:** Ctrl+N (Yeni) ve Ctrl+O (Aç) çalışıyor.
+- **Görünüm:** Düğmeler, alanlar, sekmeler, menüler ve Kontrol listesi yenilendi; kapatırken programın kendi penceresinde "Kaydet ve Kapat" seçeneği var.
 
 
 Dosyaların SHA256 özetleri: [SHA256SUMS.txt](SHA256SUMS.txt)

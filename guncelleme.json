@@ -1,17 +1,17 @@
 {
- "surum": "0.12.1",
- "tarih": "2026-11-26",
- "notlar": "## Vakar 0.12.1",
+ "surum": "0.12.2",
+ "tarih": "2026-11-27",
+ "notlar": "# Vakar 0.12.2\n\n- **Yerleşmeyen dersler:** Ders Programı'nın üstünde yerleşmeyen bloklar kart olarak görünür. Kart tabloya sürüklenir ya da karta tıklayıp yeşil bir hücreye tıklanır; dolu saate bırakılırsa yer değiştirme sorulur. Elle yerleşen kart kilitlenir. Tablodaki bir kart şeride bırakılarak ya da sağ tıklayıp \"Tablodan Kaldır\" ile tablodan kaldırılabilir.\n- **Sınıflar sırası:** Yan panelde Sınıflar artık Zaman'ın hemen altında; Başlangıç Rehberi yeni sıraya göre yenilendi.\n- **Çizelgeyle Karşılaştır:** Sınıfın dersleri ile haftalık ders çizelgesi satır satır karşılaştırılır; farklar tek tıkla düzeltilir.\n- **Seçmeli dersler:** Yeni kıstas \"Seçmeli dersler bütün sınıflarda ortak saatlere gelsin\". Seçmeli ders grubu uyarısı (ortaokul ve lise kurallarıyla). İlkokulda Masal ve Geleneksel Oyun Saati ayrı gösterilir.\n- **Öğretmen eklerken:** Kısa ad kendiliğinden önerilir; branş, okulun derslerinden seçilir ya da elle yazılır.\n- **Derslikler:** \"Sınıf Dersliği Ekle\" ile adı ve sınıfı elle girilen derslik eklenebilir.\n- **Açılış ekranı:** Yeni, kodla çizilen açılış; özel günlerde kutlama ve anma. Saygı yazısı Hakkında ve Öneriler'de.\n- **Sorun Bildir:** Yardım menüsünden adları kodlanmış, kişisel bilgi içermeyen bir dosya hazırlanır.\n- **Kısayollar:** Ctrl+N (Yeni) ve Ctrl+O (Aç) çalışıyor.\n- **Görünüm:** Düğmeler, alanlar, sekmeler, menüler ve Kontrol listesi yenilendi; kapatırken programın kendi penceresinde \"Kaydet ve Kapat\" seçeneği var.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "7fbf605f52d047041b76b6129e2b0e2c1157327b8bfca8bf526d1beb5f30ff9c",
-   "boyut": 98796304
+   "sha256": "ecb17a7624db5c9297f797acee9702bc99970f1b7bccf9b6ee66ae9bb1e73911",
+   "boyut": 98521505
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "783ab05f23c63ff3da1917f27a2427004167ba3a911efb8575fd11bcffbf87cd",
-   "boyut": 100533520
+   "sha256": "c38b09e1f39ed54664babd592c4cfb46e8e932a1803bdbe04dfbd22b03bac786",
+   "boyut": 100294464
   }
  }
 }
