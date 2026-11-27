@@ -1,17 +1,17 @@
 {
- "surum": "0.12.2",
+ "surum": "0.13.0",
  "tarih": "2026-11-27",
- "notlar": "# Vakar 0.12.2\n\n- **Yerleşmeyen dersler:** Ders Programı'nın üstünde yerleşmeyen bloklar kart olarak görünür. Kart tabloya sürüklenir ya da karta tıklayıp yeşil bir hücreye tıklanır; dolu saate bırakılırsa yer değiştirme sorulur. Elle yerleşen kart kilitlenir. Tablodaki bir kart şeride bırakılarak ya da sağ tıklayıp \"Tablodan Kaldır\" ile tablodan kaldırılabilir.\n- **Sınıflar sırası:** Yan panelde Sınıflar artık Zaman'ın hemen altında; Başlangıç Rehberi yeni sıraya göre yenilendi.\n- **Çizelgeyle Karşılaştır:** Sınıfın dersleri ile haftalık ders çizelgesi satır satır karşılaştırılır; farklar tek tıkla düzeltilir.\n- **Seçmeli dersler:** Yeni kıstas \"Seçmeli dersler bütün sınıflarda ortak saatlere gelsin\". Seçmeli ders grubu uyarısı (ortaokul ve lise kurallarıyla). İlkokulda Masal ve Geleneksel Oyun Saati ayrı gösterilir.\n- **Öğretmen eklerken:** Kısa ad kendiliğinden önerilir; branş, okulun derslerinden seçilir ya da elle yazılır.\n- **Derslikler:** \"Sınıf Dersliği Ekle\" ile adı ve sınıfı elle girilen derslik eklenebilir.\n- **Açılış ekranı:** Yeni, kodla çizilen açılış; özel günlerde kutlama ve anma. Saygı yazısı Hakkında ve Öneriler'de.\n- **Sorun Bildir:** Yardım menüsünden adları kodlanmış, kişisel bilgi içermeyen bir dosya hazırlanır.\n- **Kısayollar:** Ctrl+N (Yeni) ve Ctrl+O (Aç) çalışıyor.\n- **Görünüm:** Düğmeler, alanlar, sekmeler, menüler ve Kontrol listesi yenilendi; kapatırken programın kendi penceresinde \"Kaydet ve Kapat\" seçeneği var.",
+ "notlar": "# Vakar 0.13.0\n\n- **PDF ve yazdırma:** Çıktıların kenarındaki koyu çerçeve giderildi.\n- **Güncelleme penceresi:** Yenilikler programın kendi penceresinde, indirme ilerlemesiyle gösterilir (bir sonraki güncellemeden itibaren).\n- **Pano:** Simgeli sayı kutuları, yenilenen Sıradaki Adım ve Bugün kartları; Son Açılan Dosyalar düzeldi.\n- **Dağıtım:** Durum kartları, kıstaslara uyum listesi ve kartlı başlangıç seçimi.\n- **Raporlar:** Bütün sayfalar tam ekranda açılır; Okul Paketi hazırlanırken ilerleme gösterilir.\n- **Görünüm:** Düğmelere simgeler; silme düğmeleri ayrı renkte; Ders Saatleri, Ders Doldurma, Nöbet Sayıları ve Hakkında yenilendi.\n- **Kurulum:** Kurulum sihirbazı Vakar görselleriyle; kurulum dosyası daha küçük.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "ecb17a7624db5c9297f797acee9702bc99970f1b7bccf9b6ee66ae9bb1e73911",
-   "boyut": 98521505
+   "sha256": "8a4e5baad29e9c42034da7b87f8883fe1441b959448a6884a6be963cf4788e62",
+   "boyut": 96106315
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "c38b09e1f39ed54664babd592c4cfb46e8e932a1803bdbe04dfbd22b03bac786",
-   "boyut": 100294464
+   "sha256": "b2cfe6b8e25b7e5f45b8266e3505b1f60f8494fb632feb556c3f556801190118",
+   "boyut": 97732452
   }
  }
 }
