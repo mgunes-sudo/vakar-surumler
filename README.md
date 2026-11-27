@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.13.0** (2026-11-27)
+Son sürüm: **0.13.1** (2026-11-27)
 
 ## İndir
 
@@ -16,15 +16,12 @@ Son sürüm: **0.13.0** (2026-11-27)
 - **Pardus:** .deb dosyasına çift tıklayıp kurun.
 - Program kurulduktan sonra yeni sürümleri **kendiliğinden** bulur ve sorup kurar; bu sayfaya yeniden gelmeniz gerekmez.
 
-# Vakar 0.13.0
+# Vakar 0.13.1
 
-- **PDF ve yazdırma:** Çıktıların kenarındaki koyu çerçeve giderildi.
-- **Güncelleme penceresi:** Yenilikler programın kendi penceresinde, indirme ilerlemesiyle gösterilir (bir sonraki güncellemeden itibaren).
-- **Pano:** Simgeli sayı kutuları, yenilenen Sıradaki Adım ve Bugün kartları; Son Açılan Dosyalar düzeldi.
-- **Dağıtım:** Durum kartları, kıstaslara uyum listesi ve kartlı başlangıç seçimi.
-- **Raporlar:** Bütün sayfalar tam ekranda açılır; Okul Paketi hazırlanırken ilerleme gösterilir.
-- **Görünüm:** Düğmelere simgeler; silme düğmeleri ayrı renkte; Ders Saatleri, Ders Doldurma, Nöbet Sayıları ve Hakkında yenilendi.
-- **Kurulum:** Kurulum sihirbazı Vakar görselleriyle; kurulum dosyası daha küçük.
+- **Yeni simge:** Vakar'ın simgesi ders tablosu hücrelerinden oluşan bir V oldu.
+- **Raporlar:** Tam görünümde sayfalar tek tek, ekrana sığarak gösterilir; oklarla ya da klavyeyle önceki ve sonraki sayfaya geçilir.
+- **Düzeltmeler:** Öğretmen ve sınıf listelerindeki ders yükü çubuğu, Raporlar'daki düğmelerin yerleşimi, İstek Formu'ndaki "Bütün Gün" başlığı, Sınıf Dersliği Ekle'deki çift işaret.
+- **Metinler:** Arayüz metinleri dil bilgisi ve yazım kurallarına göre gözden geçirildi.
 
 
 Dosyaların SHA256 özetleri: [SHA256SUMS.txt](SHA256SUMS.txt)

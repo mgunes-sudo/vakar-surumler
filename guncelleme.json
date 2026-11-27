@@ -1,17 +1,17 @@
 {
- "surum": "0.13.0",
+ "surum": "0.13.1",
  "tarih": "2026-11-27",
- "notlar": "# Vakar 0.13.0\n\n- **PDF ve yazdırma:** Çıktıların kenarındaki koyu çerçeve giderildi.\n- **Güncelleme penceresi:** Yenilikler programın kendi penceresinde, indirme ilerlemesiyle gösterilir (bir sonraki güncellemeden itibaren).\n- **Pano:** Simgeli sayı kutuları, yenilenen Sıradaki Adım ve Bugün kartları; Son Açılan Dosyalar düzeldi.\n- **Dağıtım:** Durum kartları, kıstaslara uyum listesi ve kartlı başlangıç seçimi.\n- **Raporlar:** Bütün sayfalar tam ekranda açılır; Okul Paketi hazırlanırken ilerleme gösterilir.\n- **Görünüm:** Düğmelere simgeler; silme düğmeleri ayrı renkte; Ders Saatleri, Ders Doldurma, Nöbet Sayıları ve Hakkında yenilendi.\n- **Kurulum:** Kurulum sihirbazı Vakar görselleriyle; kurulum dosyası daha küçük.",
+ "notlar": "# Vakar 0.13.1\n\n- **Yeni simge:** Vakar'ın simgesi ders tablosu hücrelerinden oluşan bir V oldu.\n- **Raporlar:** Tam görünümde sayfalar tek tek, ekrana sığarak gösterilir; oklarla ya da klavyeyle önceki ve sonraki sayfaya geçilir.\n- **Düzeltmeler:** Öğretmen ve sınıf listelerindeki ders yükü çubuğu, Raporlar'daki düğmelerin yerleşimi, İstek Formu'ndaki \"Bütün Gün\" başlığı, Sınıf Dersliği Ekle'deki çift işaret.\n- **Metinler:** Arayüz metinleri dil bilgisi ve yazım kurallarına göre gözden geçirildi.",
  "dosyalar": {
   "win": {
    "ad": "indir/Vakar-Kurulum.exe",
-   "sha256": "8a4e5baad29e9c42034da7b87f8883fe1441b959448a6884a6be963cf4788e62",
-   "boyut": 96106315
+   "sha256": "06e5f11e3a85ffca38b46bc8a35bf72b0ccd4273049810c4fb642ccbbe83f105",
+   "boyut": 95998122
   },
   "linux": {
    "ad": "indir/vakar_amd64.deb",
-   "sha256": "b2cfe6b8e25b7e5f45b8266e3505b1f60f8494fb632feb556c3f556801190118",
-   "boyut": 97732452
+   "sha256": "e2df2ec090bf88f1e27e974400e6206479a96504615dbff124ffa52045e7837e",
+   "boyut": 97723656
   }
  }
 }
