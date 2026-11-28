@@ -2,7 +2,7 @@
 
 **Okullar için ücretsiz ders dağıtım ve nöbet programı**
 
-Son sürüm: **0.14.0** (2026-11-27)
+Son sürüm: **0.14.1** (2026-11-28)
 
 ## İndir
 
@@ -16,12 +16,17 @@ Son sürüm: **0.14.0** (2026-11-27)
 - **Pardus:** .deb dosyasına çift tıklayıp kurun.
 - Program kurulduktan sonra yeni sürümleri **kendiliğinden** bulur ve sorup kurar; bu sayfaya yeniden gelmeniz gerekmez.
 
-# Vakar 0.14.0
+## Tanıtım Videosu
 
-- **Yeni okul türleri:** İlkokul ve Ortaokul; İlkokul ve İmam Hatip Ortaokulu; İlkokul, Ortaokul ve İmam Hatip Ortaokulu. İlkokul şubeleri günde 6 saat ders yapar.
-- **Nöbet:** İlkokul, Ortaokul ve Lise öğretmeni ayrı düğmelerle eklenir; nöbet yerleri kademeye ayrılabilir. Çift nöbet hücreleri yeni, daha kolay bir tabloyla seçilir.
-- **Görünüm:** Sekmelerde simgeler; öğretmenin girdiği dersler yeni bir listeyle gösterilir; gün sayısı kartı sadeleşti.
-- **Düzeltmeler:** "Bu sayfa ne işe yarar?" düğmesi bütün sayfalarda çalışır; nöbet listesindeki taşma giderildi; güncellemeden sonra masaüstü ve görev çubuğu simgesi yenilenir.
+Programın baştan sona nasıl kullanıldığını anlatan video: [YouTube'da izleyin](https://www.youtube.com/watch?v=V-JtnP7nzGo)
+
+Öneri ve sorularınız için: vakardersdagitim@gmail.com
+
+# Vakar 0.14.1
+
+- **Tanıtım videosu:** Programın baştan sona anlatıldığı video, Yardım menüsündeki "Tanıtım Videosu" ile YouTube'da açılır.
+- **Yeni iletişim adresi:** Öneri, istek ve sorun bildirimleri için adres artık vakardersdagitim@gmail.com.
+- **Başlıklar:** Pano ve bütün çıktıların başlıklarında öğretim yılı "2026-2027 Eğitim Öğretim Yılı" biçiminde yazılır.
 
 
 Dosyaların SHA256 özetleri: [SHA256SUMS.txt](SHA256SUMS.txt)
